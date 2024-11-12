@@ -7,7 +7,7 @@ from matplotlib import cm
 # Parâmetros conforme a numeração de grupo: 15B
 T_inf   = 25.0      # Temperatura ao longe, em ºC
 h       = 100.0     # Coef. de transf. de calor convectivo, em W/m²K
-q0      = 8e4       # Fluxo de calor injetado na placa, em W/m²
+q0      = 8e4       # Fluxo de calor injetado, em W/m²
 
 # Parâmetros gerais:
 t_h     = 10        # Tempo de aquecimento, em s
