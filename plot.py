@@ -2,7 +2,6 @@
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
-from matplotlib import cm
 
 # Parâmetros conforme a numeração de grupo: 15B
 T_inf   = 25.0      # Temperatura ao longe, em ºC
@@ -23,7 +22,7 @@ L       = w2/2                  # Metade do comprimento da placa (problema simé
 Bi      = (h*L**2)/(k*d)        # Número de Biot
 alpha   = k/(rho*Cp)            # Difusividade térmica da fita
 p       = w2/w1                 # Comprimento relativo entre a fita e a placa
-q0_h    = (q0*L**2)/(k*d*T_inf) # Expressão do calor introduzido pela fita
+q0_h    = (q0*L**2)/(k*d*T_inf) # Expressão do calor introduzido nos primeiros instantes
 
 # Parâmetros de integração
 RES     = 100   # Nº de elementos para integração (resolução)
